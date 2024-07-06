@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+   <!-- <div id="app"></div> --> 
+    <main>
+      <article class="card">
+        <h2 class="tittle add">Agregar Usuarios</h2>
+        <form id="form-users">
+
+          <div>
+            <label for="names">Nombres</label>
+            <input type="text" name ="names" id="name" placeholder ="Ingresar nombre" required>
+          </div>
+
+          <div>
+            <label for="lastname">Apellidos</label>
+            <input type="text" name ="lastname" id = "lastname" placeholder ="Ingresar apellidos" required>
+          </div>
+
+          <div>
+            <label for="country">País</label>
+            <input type="text" name ="country" id="country" placeholder ="Ingresar pais" required>
+          </div>
+
+          <div>
+            <button type="submit">Agregar</button>
+          </div>
+        </form>
+      </article>
+
+      <article class="items">
+        <table id="table-users">
+          <caption>Tabla de Usuarios</caption>
+          <thead>
+            <tr>
+              <th scope="col" style="width:50px">#</th>
+              <th scope="col" style="width:150px">Nombres</th>
+              <th scope="col" style="width:150px">Apellidos</th>
+              <th scope="col" style="width:150px">País</th>
+              <th scope="col" style="width:150px">Acción</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+
+      </article>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

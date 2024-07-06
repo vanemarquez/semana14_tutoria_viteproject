@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Luis Fabián",
+      "lastname": "Navarro Márquez",
+      "country": "Perú"
+    },
+    {
+      "id": "2",
+      "name": "Martín Rolando",
+      "lastname": "Márquez Benites",
+      "country": "Perú"
+    },
+    {
+      "id": "6",
+      "name": "Martha Vanessa",
+      "lastname": "Márquez Ramos",
+      "country": "Perú"
+    }
+  ]
+}
